@@ -1,0 +1,581 @@
+2015/09/13 09:35:39 [error] [php] require(autoload.php): failed to open stream: No such file or directory (C:\xampp\htdocs\civichack\protected\views\site\index.php:5)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#3 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#10 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (5)
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (5)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+2015/09/13 09:35:54 [error] [php] include(ParseClient.php): failed to open stream: No such file or directory (C:\xampp\htdocs\civichack\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\protected\views\site\index.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require()
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#5 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#12 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (7)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 09:36:29 [error] [php] include(ParseClient.php): failed to open stream: No such file or directory (C:\xampp\htdocs\civichack\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\protected\views\site\index.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require()
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#5 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#12 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (7)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 09:37:55 [error] [php] include(ParseClient.php): failed to open stream: No such file or directory (C:\xampp\htdocs\civichack\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\protected\views\site\index.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require()
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#5 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#12 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (7)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 09:40:11 [error] [php] include(ParseClient.php): failed to open stream: No such file or directory (C:\xampp\htdocs\civichack\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\protected\views\site\index.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require()
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#5 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#12 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (7)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 09:40:47 [error] [php] include(ParseClient.php): failed to open stream: No such file or directory (C:\xampp\htdocs\civichack\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\protected\views\site\index.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require()
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#5 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#12 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (7)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 09:46:45 [error] [php] The use statement with non-compound name 'ParseClient' has no effect (C:\xampp\htdocs\civichack\protected\views\site\index.php:7)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#2 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 09:46:58 [error] [php] The use statement with non-compound name 'parse' has no effect (C:\xampp\htdocs\civichack\protected\views\site\index.php:7)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#2 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 09:48:39 [error] [exception.Parse\ParseException] exception 'Parse\ParseException' with message 'SSL certificate problem: unable to get local issuer certificate' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseClient.php:284
+Stack trace:
+#0 C:\xampp\htdocs\civichack\includes\src\Parse\ParseObject.php(1037): Parse\ParseClient::_request('POST', '/1/classes/Test...', NULL, '{"foo":"bar"}', false)
+#1 C:\xampp\htdocs\civichack\includes\src\Parse\ParseObject.php(947): Parse\ParseObject::deepSave(Object(Parse\ParseObject), false)
+#2 C:\xampp\htdocs\civichack\protected\views\site\index.php(16): Parse\ParseObject->save()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#7 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#13 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#14 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/
+2015/09/13 09:54:47 [error] [exception.Parse\ParseException] exception 'Parse\ParseException' with message 'SSL certificate problem: unable to get local issuer certificate' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseClient.php:284
+Stack trace:
+#0 C:\xampp\htdocs\civichack\includes\src\Parse\ParseObject.php(1037): Parse\ParseClient::_request('POST', '/1/classes/Test...', NULL, '{"foo":"bar"}', false)
+#1 C:\xampp\htdocs\civichack\includes\src\Parse\ParseObject.php(947): Parse\ParseObject::deepSave(Object(Parse\ParseObject), false)
+#2 C:\xampp\htdocs\civichack\protected\views\site\index.php(16): Parse\ParseObject->save()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#7 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#13 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#14 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/
+2015/09/13 10:00:44 [error] [exception.Parse\ParseException] exception 'Parse\ParseException' with message 'SSL certificate problem: unable to get local issuer certificate' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseClient.php:284
+Stack trace:
+#0 C:\xampp\htdocs\civichack\includes\src\Parse\ParseObject.php(1037): Parse\ParseClient::_request('POST', '/1/classes/Test...', NULL, '{"elephant":"ph...', false)
+#1 C:\xampp\htdocs\civichack\includes\src\Parse\ParseObject.php(947): Parse\ParseObject::deepSave(Object(Parse\ParseObject), false)
+#2 C:\xampp\htdocs\civichack\protected\views\site\index.php(37): Parse\ParseObject->save()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#7 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#13 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#14 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/
+2015/09/13 10:01:44 [error] [exception.Parse\ParseException] exception 'Parse\ParseException' with message 'SSL certificate problem: unable to get local issuer certificate' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseClient.php:284
+Stack trace:
+#0 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(346): Parse\ParseClient::_request('GET', '/1/classes/Test...', NULL, NULL, false)
+#1 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(278): Parse\ParseQuery->find(false)
+#2 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(91): Parse\ParseQuery->first(false)
+#3 C:\xampp\htdocs\civichack\protected\views\site\index.php(27): Parse\ParseQuery->get('anObjectId')
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#14 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#15 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/
+2015/09/13 10:03:20 [error] [php] Undefined variable: user (C:\xampp\htdocs\civichack\protected\views\site\index.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#2 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (24)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 10:07:34 [error] [exception.Exception] exception 'Exception' with message 'cannot setWriteAccess for a user with null id' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseACL.php:351
+Stack trace:
+#0 C:\xampp\htdocs\civichack\protected\views\site\index.php(45): Parse\ParseACL->setUserWriteAccess(Object(Parse\ParseUser), true)
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#5 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#12 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/
+2015/09/13 10:08:56 [error] [php] Undefined variable: query (C:\xampp\htdocs\civichack\protected\views\site\index.php:45)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#2 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\civichack\protected\views\site\index.php (45)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 10:09:30 [error] [exception.Parse\ParseException] exception 'Parse\ParseException' with message 'SSL certificate problem: unable to get local issuer certificate' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseClient.php:284
+Stack trace:
+#0 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(346): Parse\ParseClient::_request('GET', '/1/classes/Test...', NULL, NULL, false)
+#1 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(278): Parse\ParseQuery->find(false)
+#2 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(91): Parse\ParseQuery->first(false)
+#3 C:\xampp\htdocs\civichack\protected\views\site\index.php(47): Parse\ParseQuery->get('anObjectId')
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#14 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#15 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/
+2015/09/13 10:12:05 [error] [exception.Parse\ParseException] exception 'Parse\ParseException' with message 'SSL certificate problem: unable to get local issuer certificate' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseClient.php:284
+Stack trace:
+#0 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(346): Parse\ParseClient::_request('GET', '/1/classes/Test...', NULL, NULL, false)
+#1 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(278): Parse\ParseQuery->find(false)
+#2 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(91): Parse\ParseQuery->first(false)
+#3 C:\xampp\htdocs\civichack\protected\views\site\index.php(47): Parse\ParseQuery->get('anObjectId')
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#14 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#15 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/
+2015/09/13 10:18:02 [error] [exception.Parse\ParseException] exception 'Parse\ParseException' with message 'SSL certificate problem: unable to get local issuer certificate' in C:\xampp\htdocs\civichack\includes\src\Parse\ParseClient.php:284
+Stack trace:
+#0 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(346): Parse\ParseClient::_request('GET', '/1/classes/Test...', NULL, NULL, false)
+#1 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(278): Parse\ParseQuery->find(false)
+#2 C:\xampp\htdocs\civichack\includes\src\Parse\ParseQuery.php(91): Parse\ParseQuery->first(false)
+#3 C:\xampp\htdocs\civichack\protected\views\site\index.php(47): Parse\ParseQuery->get('anObjectId')
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('')
+#14 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#15 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/
+2015/09/13 12:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "badges.html".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('badges.html')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('badges.html')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/badges.htm...')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/badges.html
+2015/09/13 12:08:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sass.html".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('sass.html')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('sass.html')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/sass.html')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/sass.html
+2015/09/13 12:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sass.html".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('sass.html')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('sass.html')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/sass.html')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/sass.html
+2015/09/13 12:25:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('images')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('images')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/images/yun...')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/images/yuna.jpg
+2015/09/13 12:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('images')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('images')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/images/yun...')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/images/yuna.jpg
+2015/09/13 12:33:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('images')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('images')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/images/yun...')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/images/yuna.jpg
+2015/09/13 12:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ico/pri01.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('ico/pri01.png')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/ico/pri01.png
+2015/09/13 12:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ico/undefined.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('ico/undefined.p...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/ico/undefined.png
+2015/09/13 12:37:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/pri01.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/pri0...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/pri01.png
+2015/09/13 12:37:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/undefined.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/unde...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/undefined.png
+2015/09/13 12:37:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/pri01.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/pri0...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/pri01.png
+2015/09/13 12:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/undefined.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/unde...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/undefined.png
+2015/09/13 12:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/pri01.png.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/pri0...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/pri01.png.png
+2015/09/13 12:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/pan.png.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/pan....')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/pan.png.png
+2015/09/13 12:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/ali.gif.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/ali....')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/ali.gif.png
+2015/09/13 12:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/prd01.png.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/prd0...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/prd01.png.png
+2015/09/13 12:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/movci.png.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/movc...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/movci.png.png
+2015/09/13 12:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "badges.html".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('badges.html')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('badges.html')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/badges.htm...')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/badges.html
+2015/09/13 13:02:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sass.html".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('sass.html')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('sass.html')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/sass.html')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/sass.html
+2015/09/13 13:02:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('site')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('site')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/site/lista...')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/site/listar
+2015/09/13 13:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('site')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('site')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/site/lista...')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/site/listar
+2015/09/13 14:00:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busqueda".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('busqueda')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('busqueda')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/busqueda')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/busqueda
+2015/09/13 14:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busqueda".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('busqueda')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('busqueda')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/busqueda')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/busqueda
+2015/09/13 14:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busqueda".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('busqueda')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('busqueda')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/busqueda')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/busqueda?id=43
+2015/09/13 14:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "busqueda".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('busqueda')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('busqueda')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/busqueda')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/busqueda?id=43
+2015/09/13 15:37:23 [error] [php] Undefined index: id (C:\xampp\htdocs\civichack\protected\views\site\detalle.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#2 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(44): SiteController->render()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionBusqueda()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/busqueda
+in C:\xampp\htdocs\civichack\protected\views\site\detalle.php (9)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (44)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 17:05:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico/undefined".' in C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico/unde...')
+#1 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico/undefined
+2015/09/13 19:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pri01.png".' in C:\xampp\htdocs\civichack\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(262): CController->missingAction('pri01.png')
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): CController->run('pri01.png')
+#2 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/pri01.png')
+#3 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\civichack\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/site/pri01.png
+2015/09/13 19:42:23 [error] [php] Undefined index: id (C:\xampp\htdocs\civichack\protected\views\site\detalle.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#2 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(44): SiteController->render()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionBusqueda()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/busqueda
+in C:\xampp\htdocs\civichack\protected\views\site\detalle.php (10)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (44)
+in C:\xampp\htdocs\civichack\index.php (13)
+2015/09/13 19:42:39 [error] [php] Undefined index: id (C:\xampp\htdocs\civichack\protected\views\site\detalle.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(866): SiteController->renderFile()
+#1 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(779): SiteController->renderPartial()
+#2 C:\xampp\htdocs\civichack\protected\controllers\SiteController.php(44): SiteController->render()
+#3 C:\xampp\htdocs\civichack\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionBusqueda()
+#4 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(278): SiteController->runAction()
+#6 C:\xampp\htdocs\civichack\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#8 C:\xampp\htdocs\civichack\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\civichack\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\civichack\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/busqueda
+in C:\xampp\htdocs\civichack\protected\views\site\detalle.php (10)
+in C:\xampp\htdocs\civichack\protected\controllers\SiteController.php (44)
+in C:\xampp\htdocs\civichack\index.php (13)
